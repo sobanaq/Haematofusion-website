@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 10px 10px 10px 10px;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background: url(Images/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 50px;
+  backdrop-filter: blur(50px);
+}
+
+.para {
+  color: black;
+  font-size: 25px;
+  width: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-style: groove;
+  border-color: red;
+  border-width: 20px;
+}
+
+#nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#nav a:hover {
+  color: red;
+}
+
+#contact a {
+  color: rgb(33, 194, 12);
+}
+
+::placeholder {
+  color: #04030f;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+#search-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 37px;
+  padding: 0px;
+  margin-top: 25px;
+}
+
+#search-input {
+  border: none;
+  width: 100%;
+  background-color: darksalmon;
+  font-size: 15px;
+}
+
+#search-button {
+  border: none;
+  background-color: darksalmon;
+  padding: 0px;
+}
+
+#search-button-image {
+  padding: 0px 8px 0px 5px;
+  width: 40px;
+}
+
+.center-text {
+  text-align: center;
+}
